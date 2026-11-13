@@ -1,0 +1,22 @@
+# Dane poufne
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dane operacyjne
+data/
+logs/
+
+# Pliki tymczasowe
+*.tmp
+*.log
+
+# IDE
+.vscode/
+.idea/

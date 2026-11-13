@@ -1,0 +1,25 @@
+# Sekrety
+.env
+.env.*
+!.env.example
+
+# Dane i archiwum
+data/
+logs/
+
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Dokumentacja lokalna
+README.local.md

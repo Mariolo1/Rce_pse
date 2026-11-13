@@ -1,0 +1,12 @@
+services:
+  rce-pse:
+    build: .
+    container_name: rce-pse
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      TZ: Europe/Warsaw
+    volumes:
+      - ./data:/data
+      - ./logs:/logs
